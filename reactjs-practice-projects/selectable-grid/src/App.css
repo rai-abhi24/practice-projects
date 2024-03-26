@@ -1,0 +1,17 @@
+.grid-template{
+    display: grid;
+    grid-template-columns: repeat(var(--cols, 10), 50px);
+    grid-template-rows: repeat(var(--rows, 10), 50px);
+    user-select: none;
+}
+
+.grid-box{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected{
+    background: rgb(45, 128, 236);
+}
